@@ -1,15 +1,15 @@
 # React Glossary
 An introduction to terminology in react/react native.
 
-**JSX** JSX is a syntax extension to JavaScript. It is similar to a template language, but it has full power of JavaScript. JSX gets compiled to React.createElement() calls which return plain JavaScript objects called “React elements”. 
+**JSX** is a syntax extension to JavaScript. It is similar to a template language, but it has full power of JavaScript. JSX gets compiled to React.createElement() calls which return plain JavaScript objects called “React elements”. 
 
 **Components** React components are small, reusable pieces of code that return a React element to be rendered to the page.
 
-**props** props are inputs to a React component. They are data passed down from a parent component to a child component.
+**props** are inputs to a React component. They are data passed down from a parent component to a child component.
 
 **state** A component needs state when some data associated with it changes over time.
 
-**Lifecycle Methods** Lifecycle methods are custom functionality that gets executed during the different phases of a component. There are methods available when the component gets created and inserted into the DOM (mounting), when the component updates, and when the component gets unmounted or removed from the DOM.
+**Lifecycle Methods** are custom functionality that gets executed during the different phases of a component. There are methods available when the component gets created and inserted into the DOM (mounting), when the component updates, and when the component gets unmounted or removed from the DOM.
 
 **Keys** A “key” is a special string attribute you need to include when creating arrays of elements. Keys help React identify which items have changed, are added, or are removed. Keys should be given to the elements inside an array to give the elements a stable identity.
 
@@ -17,7 +17,7 @@ An introduction to terminology in react/react native.
 
 **Expo** is a framework and a platform for universal React applications. It is a set of tools and services built around React Native and native platforms that help you develop, build, deploy, and quickly iterate on iOS, Android, and web apps from the same JavaScript/TypeScript codebase.
 
-**Hooks** Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.
+**Hooks** are a new addition in React 16.8. They let you use state and other React features without writing a class.
 
 
 
